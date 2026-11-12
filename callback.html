@@ -28,7 +28,7 @@
   <a class="btn" id="manual" href="#">Continue manually</a>
 </div>
 <script>
-  var target = "https://localhost:8723/callback" + window.location.search + window.location.hash;
+  var target = "http://localhost:8723/callback" + window.location.search + window.location.hash;
   document.getElementById("manual").href = target;
   window.location.replace(target);
 </script>
